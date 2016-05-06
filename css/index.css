@@ -1,0 +1,77 @@
+body a {
+    text-decoration: none;
+    color: black;
+}
+.vertical{
+    color: #e5e5e5;
+}
+.header{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.header a{
+    color: black;
+    font-size: 14px;
+}
+.header .logo{
+    background: url("../img/logo.png") 0 11px no-repeat;
+    width: 227px;
+    height: 50px;
+    display: block;
+    float: left;
+}
+.header .r_float{
+    float: right;
+    display: inline;
+}
+.header .top a,.header .selectL{
+    display: block;
+    padding: 0 15px;
+}
+.header .l_float{
+    float: left;
+    display: inline;
+}
+.header .selectL{
+    display: inline;
+    border-style: none;
+    overflow: hidden;
+    width: 5px;
+}
+.header .selectLanguage{
+    border-style: none;
+    overflow: hidden;
+}
+.grid{
+    display: block;
+    line-height: 15px;
+    left: 0;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.grid .menu_l{
+    display: inline;
+}
+.grid .menu_l ul{
+    list-style: none;
+    display: block;
+}
+.grid .menu_l ul li{
+    float: left;
+    font-size: 21px;
+}
+.grid .menu_l ul li{
+    margin-right: 60px;
+}
+.grid .menu_r{
+    float: right;
+    padding-right: 15px;
+}
+.grid .menu_r a{
+    width: 115px;
+}
+.grid .menu_r .v_l{
+    padding-right: 24px;
+    padding-left: 24px;
+}
